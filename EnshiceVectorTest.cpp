@@ -42,5 +42,9 @@ int main(int argc, char const *argv[])
     cout << "vector index at 27: " << (*v)[27] << endl;
 
     cout << "test EnshiceVector end" << endl;
+    
+    delete v;
+    delete v_copy;
+
     return 0;
 }
