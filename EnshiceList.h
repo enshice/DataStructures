@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <iostream>
 
 namespace enshice
 {
@@ -100,15 +99,15 @@ public:
         friend class List<Object>;
     };
     */
-    
+
 public:
-    List() { std::cout << "List constructor." << std::endl;};
+    List() {}
 
-    List(const List& rhs) { std::cout << "List copy constructor." << std::endl; };
+    List(const List& rhs) {}
 
-    ~List() { std::cout << "List ~constructor." << std::endl;};
+    ~List() {}
 
-    const List& operator=(const List& rhs);
+    const List& operator=(const List& rhs) {}
 
 private:
     int theSize;
